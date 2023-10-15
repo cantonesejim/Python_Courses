@@ -6,10 +6,10 @@ minutes = hours * 60
 seconds = minutes * 60
 output = f"""
 You have lived for:
-{months} months
-{days} days
-{hours} hours
-{minutes} minutes
+{months} months or,
+{days} days or,
+{hours} hours or,
+{minutes} minutes or,
 or {seconds} seconds
 """
 print(output)
